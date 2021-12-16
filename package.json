@@ -4,7 +4,7 @@
   "description": "My first attempt at a weather application",
   "main": "index.js",
   "scripts": {
-    "test": "devStart"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",

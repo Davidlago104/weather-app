@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="style.css" href="stylesheet">
+    <script defer src="script.js"></script>
+    <title>Weather App</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="header">
+            <div class= "icon">
+                <canvas id="icon" width="100"></canvas>                
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="info">
+            <div class="status">Enter a location</div>
+            <div class="location">Where to today?</div>
+        </div>
+        <div class="detail-section">
+            <div class="detail">
+                <div class="title">Wind</div>
+                <div class="value">TBD</div>
+            </div>
+            <div class="detail">
+                <div class="title">Temperature</div>
+                <div class="value">TBD</div>
+            </div>
+            <div class="detail">
+                <div class="title">Percipitation</div>
+                <div class="value">TBD</div>
+            </div>
+        </div>
+        <div class="search-container">
+            <input type="text" class="city" placeholder="Enter Location">
+        </div>
+    </div>
+    <a href="https://openweathermap.org/poweredby" class="openweather-logo">Powered by OpenWeather</a>
 </body>
 </html>

@@ -1,5 +1,5 @@
 if (process.env.NODE_ENV !== 'production') {
-    require('dotenv').config
+    require('dotenv').config()
 }
 
 const OPENWEATHER_API_KEY = process.env.OPENWEATHER_API_KEY
